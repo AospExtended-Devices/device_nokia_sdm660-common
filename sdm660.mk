@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.qcom.rc \
     init.recovery.qcom.rc
 
 # Keylayout
