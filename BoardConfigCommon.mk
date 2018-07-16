@@ -52,6 +52,9 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 # TARGET_BOARD_PLATFORM := sdm660
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
