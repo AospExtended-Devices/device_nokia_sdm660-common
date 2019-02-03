@@ -94,3 +94,7 @@ PRODUCT_BOOT_JARS += \
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
+
+# Whitelist
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
