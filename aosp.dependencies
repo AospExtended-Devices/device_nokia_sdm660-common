@@ -8,7 +8,7 @@
     "target_path": "vendor/nokia"
   },
   {
-    "repository": "vendor_nokia_devices",
-    "target_path": "vendor/nokia_devices"
+    "repository": "vendor_prebuilt",
+    "target_path": "vendor/prebuilt"
   }
 ]
