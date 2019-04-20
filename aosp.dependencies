@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "kernel_nokia_sdm660",
+    "target_path": "kernel/nokia/sdm660"
+  },
+  {
+    "repository": "vendor_nokia",
+    "target_path": "vendor/nokia"
+  },
+  {
+    "repository": "vendor_nokia_devices",
+    "target_path": "vendor/nokia_devices"
+  }
+]
