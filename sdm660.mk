@@ -103,3 +103,7 @@ $(call inherit-product, build/target/product/verity.mk)
 # Whitelist
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+
+# Wi-Fi Display
+PRODUCT_BOOT_JARS += \
+    WfdCommon
