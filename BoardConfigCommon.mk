@@ -144,7 +144,6 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
-BOARD_PREBUILT_VENDORIMAGE := true
 
 # VNDK
 BOARD_VNDK_VERSION := current

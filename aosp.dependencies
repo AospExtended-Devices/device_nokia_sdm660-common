@@ -1,14 +1,12 @@
 [
   {
-    "repository": "kernel_nokia_sdm660",
-    "target_path": "kernel/nokia/sdm660"
+    "remote": "omnirom",
+    "repository": "android_kernel_nokia_sdm660",
+    "target_path": "kernel/nokia/sdm660",
+    "revision": "android-9.0"
   },
   {
     "repository": "vendor_nokia",
     "target_path": "vendor/nokia"
-  },
-  {
-    "repository": "vendor_prebuilt",
-    "target_path": "vendor/prebuilt"
   }
 ]
